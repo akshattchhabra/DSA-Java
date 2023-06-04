@@ -20,7 +20,7 @@ public class QSizeOfTree {
     }
     public static int sizeOftree(Node root) {
         if(root == null) {
-            return 0;
+            return 0; 
         }
         return(sizeOftree(root.left) + sizeOftree(root.right) + 1 );
     }
