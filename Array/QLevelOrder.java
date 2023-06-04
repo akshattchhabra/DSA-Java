@@ -12,7 +12,7 @@ public class QLevelOrder {
         Node() {
         }
         Node(int val) {
-            this.val = val;
+             this.val = val;
         }
 
         Node(int val, Node left, Node right) {
