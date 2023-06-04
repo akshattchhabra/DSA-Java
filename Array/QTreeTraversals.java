@@ -23,7 +23,7 @@ public class QTreeTraversals {
     {
         if (node == null)
             return;
-
+ 
         System.out.print(node.data + " ");
         preOrder(node.left);
         preOrder(node.right);
