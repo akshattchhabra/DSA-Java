@@ -12,7 +12,7 @@ class Solution {
             if (cur.val == A) {
                 checkA = true;
             }
-            if (cur.val == B){
+            if (cur.val == B){ 
                 checkB = true;
             }
 			if (cur.left != null && cur.right != null) { 
