@@ -14,7 +14,7 @@ public class QCheckIfTwoTreesAreMirror {
 
         Node(int val, Node left, Node right) {
             this.val = val;
-            this.left = left;
+            this.left = left; 
             this.right = right;
         }
     }
